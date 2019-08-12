@@ -12,6 +12,8 @@ class NegociacaoController {
 	adiciona(event){
 		event.preventDefault()
 		console.log(this._inputData.value)
+		
+		
 		//converte o horario para tipo date.
 	/*	let data =new Date(
 		  ...this._inputData.value.split("-").map(
